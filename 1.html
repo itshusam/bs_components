@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solutions | Services</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .service-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .service-card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3; 
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tech Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="services" class="container mt-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="11.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Service 1</h5>
+                        <p class="card-text">Providing top-notch service with industry-leading tools and technologies.</p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#details1">Learn More</button>
+                        <div id="details1" class="collapse">
+                            <p class="mt-3">Service 1 offers comprehensive solutions with the latest industry tools and technologies to ensure your business stays ahead of the curve. Our experts specialize in providing tailored services that are designed to meet your specific needs, ensuring maximum efficiency and productivity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="22.jpg" class="card-img-top" alt="Service 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Service 2</h5>
+                        <p class="card-text">Expert solutions tailored to meet your business needs and goals.</p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#details2">Learn More</button>
+                        <div id="details2" class="collapse">
+                            <p class="mt-3">Service 2 is designed to provide expert solutions that align with your business objectives. We focus on delivering customized strategies that help you achieve your goals, from operational efficiency to market expansion, all while ensuring your business remains competitive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="33.jpg" class="card-img-top" alt="Service 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Service 3</h5>
+                        <p class="card-text">Innovative strategies that drive growth and enhance productivity.</p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#details3">Learn More</button>
+                        <div id="details3" class="collapse">
+                            <p class="mt-3">Service 3 focuses on delivering innovative strategies that drive growth and enhance productivity. Our team of professionals works closely with you to develop and implement solutions that are not only effective but also sustainable, helping your business to thrive in a competitive market.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Interested in</label>
+                    <select class="form-control" id="service">
+                        <option>Service 1</option>
+                        <option>Service 2</option>
+                        <option>Service 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
